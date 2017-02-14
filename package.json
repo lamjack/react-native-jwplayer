@@ -1,0 +1,23 @@
+{
+    "name": "react-native-jwplayer",
+    "version": "0.1.0",
+    "description": "JW Player SDK modules and view for React Native(Android & IOS), support react native 0.40+.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lamjack/react-native-jwplayer.git"
+    },
+    "keywords": [
+        "JW Player",
+        "React Native"
+    ],
+    "author": "JackLam",
+    "bugs": {
+        "url": "https://github.com/lamjack/react-native-jwplayer/issues"
+    },
+    "homepage": "https://github.com/lamjack/react-native-jwplayer#readme",
+    "license": "MIT"
+}
