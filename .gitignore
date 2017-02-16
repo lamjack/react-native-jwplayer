@@ -7,4 +7,5 @@ android/gradlew.bat
 android/local.properties
 .DS_Store
 .idea
+yarn.lock
 npm-debug.log

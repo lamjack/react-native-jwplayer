@@ -8,4 +8,5 @@ android/local.properties
 .DS_Store
 .idea
 npm-debug.log
+yarn.lock
 demo
