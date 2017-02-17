@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		042893111E5554FD00F3683C /* JWPlayer-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042893101E5554FD00F3683C /* JWPlayer-iOS-SDK.framework */; };
-		042893241E55609200F3683C /* JWPlayerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 042893231E55609200F3683C /* JWPlayerModule.m */; };
+		043AC4661E56F3D6007213DD /* RTCJWPlayerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 043AC4651E56F3D6007213DD /* RTCJWPlayerViewManager.m */; };
+		043AC4691E56FDB4007213DD /* JWPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043AC4681E56FDB4007213DD /* JWPlayerView.m */; };
+		04BC7E911E577F8E001159BF /* JWPlayerDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC7E901E577F8E001159BF /* JWPlayerDelegateProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +28,12 @@
 /* Begin PBXFileReference section */
 		042893031E55524C00F3683C /* libRCTJWPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTJWPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		042893101E5554FD00F3683C /* JWPlayer-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "JWPlayer-iOS-SDK.framework"; path = "lib/JWPlayer-iOS-SDK.framework"; sourceTree = "<group>"; };
-		042893221E55609200F3683C /* JWPlayerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPlayerModule.h; sourceTree = "<group>"; };
-		042893231E55609200F3683C /* JWPlayerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPlayerModule.m; sourceTree = "<group>"; };
+		043AC4641E56F3D6007213DD /* RTCJWPlayerViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCJWPlayerViewManager.h; sourceTree = "<group>"; };
+		043AC4651E56F3D6007213DD /* RTCJWPlayerViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCJWPlayerViewManager.m; sourceTree = "<group>"; };
+		043AC4671E56FDB4007213DD /* JWPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPlayerView.h; sourceTree = "<group>"; };
+		043AC4681E56FDB4007213DD /* JWPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPlayerView.m; sourceTree = "<group>"; };
+		04BC7E8F1E577F8E001159BF /* JWPlayerDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPlayerDelegateProxy.h; sourceTree = "<group>"; };
+		04BC7E901E577F8E001159BF /* JWPlayerDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPlayerDelegateProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +68,12 @@
 		042893051E55524C00F3683C /* RCTJWPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				042893221E55609200F3683C /* JWPlayerModule.h */,
-				042893231E55609200F3683C /* JWPlayerModule.m */,
+				043AC4641E56F3D6007213DD /* RTCJWPlayerViewManager.h */,
+				043AC4651E56F3D6007213DD /* RTCJWPlayerViewManager.m */,
+				043AC4671E56FDB4007213DD /* JWPlayerView.h */,
+				043AC4681E56FDB4007213DD /* JWPlayerView.m */,
+				04BC7E8F1E577F8E001159BF /* JWPlayerDelegateProxy.h */,
+				04BC7E901E577F8E001159BF /* JWPlayerDelegateProxy.m */,
 			);
 			path = RCTJWPlayer;
 			sourceTree = "<group>";
@@ -133,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042893241E55609200F3683C /* JWPlayerModule.m in Sources */,
+				043AC4691E56FDB4007213DD /* JWPlayerView.m in Sources */,
+				043AC4661E56F3D6007213DD /* RTCJWPlayerViewManager.m in Sources */,
+				04BC7E911E577F8E001159BF /* JWPlayerDelegateProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,9 +245,10 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/lib",
+					"$(SRCROOT)/lib",
 				);
 				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../../react-native/Libraries/**",
 				);
@@ -250,9 +263,10 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/lib",
+					"$(SRCROOT)/lib",
 				);
 				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../../react-native/Libraries/**",
 				);

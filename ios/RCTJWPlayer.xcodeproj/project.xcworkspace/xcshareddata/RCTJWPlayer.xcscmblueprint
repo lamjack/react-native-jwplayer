@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++AD830C9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++9C8550D" : 9223372036854775807,
+    "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++AD830C9" : 9223372036854775807,
+    "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++32DA270" : 9223372036854775807,
+    "A487417D5616A3CDC5DCD966CFE309C45B9BDFF9+++F062AB1" : 9223372036854775807,
+    "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++D92107C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "775C485A-B64D-445A-A3C8-98DED6967AD4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++9C8550D" : "..\/..\/react-native-jwplayer",
+    "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++AD830C9" : "react-native-jwplayer\/",
+    "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++32DA270" : "..\/..\/react-native-jwplayer",
+    "A487417D5616A3CDC5DCD966CFE309C45B9BDFF9+++F062AB1" : "..",
+    "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++D92107C" : "..\/..\/react-native-jwplayer"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RCTJWPlayer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/RCTJWPlayer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.coding.net:wilead\/react-native-cimili.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A487417D5616A3CDC5DCD966CFE309C45B9BDFF9+++F062AB1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lamjack\/react-native-jwplayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++32DA270"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lamjack\/react-native-jwplayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++9C8550D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lamjack\/react-native-jwplayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++AD830C9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lamjack\/react-native-jwplayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0D38EC4B2ACE4B7CCD81DE065BE71ADE3286317+++D92107C"
+    }
+  ]
+}

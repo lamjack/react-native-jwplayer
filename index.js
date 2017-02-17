@@ -1,11 +1,5 @@
-"use strict"
+"use strict";
 
-import React, { Component, PropTypes } from 'react'
-import {
-    requireNativeComponent,
-    NativeModules,
-    Platform,
-    DeviceEventEmitter
-} from 'react-native'
+import _JWPlayer from './component/JWPlayer';
 
-module.exports = NativeModules.JWPlayerModule
+export const JWPlayer = _JWPlayer;
